@@ -30,7 +30,7 @@ So far in APCSA, I've learned how to use ``if`` and ``else if`` statements to ch
 One of the ProjectSTEM lessons that I feel that I learned the most from was Lesson 4, where one of the coding activities involved creating a program that takes longitude and latitude inputs and tests if the longitude and latitude inputs are proper coordinates. The program would have to check if the latiude ranges from -90 to 90 and if the longitude ranges from -180 to 180.
 
 ### The Progress
-
+After starting by creating the ``Scanner`` values and variables to contain the longitude and latitude coordinates().
 
 
 
