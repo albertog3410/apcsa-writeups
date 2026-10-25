@@ -10,13 +10,18 @@ So far in APCSA, I've learned how to use ``if`` and ``else if`` statements to ch
 
 **Truth Table** - Helps to simpify certain conditions inside of an if statement. Checks to see what happens in every possible scanario whether one or more conditions will be true or false.  0 = TRUE, 1 = FALSE. 
 
-``js
+```js
  A	   B	  A AND B
- 0     0	     0
- 0	   1	     1
- 1	   0	     1
-1      1	     1
-``
+ 
+  0      0	     0
+ 
+   0	   1	     1
+ 
+   1	   0	     1
+ 
+  1      1	     1
+
+```
 
 **De Morgan's Law** - Method created by Augustus De Morgan to provide a systematic way to change boolean expressions. Mainly used to see if a condition can be said either differently or the opposite way around. For example, ``!(x <= 10 || y != 10)`` can be transformed to ``x > 10 && y == 10``.
 
