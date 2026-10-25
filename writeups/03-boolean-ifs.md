@@ -72,13 +72,13 @@ However, when I put this into the program, it would allow for numbers above and 
 
 
 ### Another Challenge 
-Another challenge that I had did not have to do with any of the lessons, but instead of with the end of the unit exam. Going into this, I hadn't taken any notes because I thought that I would be fine being that I managed to do alright without them on the previous exam. However, this backfired on me when trying to solve a multiple choice problem that had to do with the truth tables. The problem used the same table that I wrote up in the context section earlier, but the right columns had to be three false and one true at the end( 1 - 1 - 1 0). 
+Another challenge that I had did not have to do with any of the lessons, but instead of with the end of the unit exam. Going into this, I hadn't taken any notes because I thought that I would be fine being that I managed to do alright without them on the previous exam. However, this backfired on me when trying to solve a multiple choice problem that had to do with the truth tables. The problem used the same table that I wrote up in the context section earlier, but the right columns had to be three false and one true at the end( 1 - 1 - 1 0). This question took me so long that I had to use the extra time I had on exam's in order to complete, which meant staying to complete the exam after class ended. It was like my mind just went blank, it which me have a harder time with the other problems. Despite this, I did my best to remain patient and take my time and write down the truth tables method on a piece of paper in order to find the correct answer. Despite not getting the right answer on that question, I took my best guess and used the same method on the other questions.
 
 ### Takeaways
 
 * I learned that **De Morgan's Law** is not just another way to simplify ``if`` statements, it also a way to debug and analyze conditions in case of any errors. Which is a method that really helped me when doing Lesson four of ProjectSTEM.
 * **Problem Decomposition** - While this is a skill that I usually struggle in, using the truth table method really did help me in analyzing the how and why of boolean conditions. As well as what would it mean if one value comes to be true or false and how it changes the output entirely.
-*  
+*  **Practice Makes Perfect** - Despite the teacher giving the class practice problems, I did not use them because I thought that I would be fine without them. But after getting 10/20 on the exam, I realized that I needed more practice with this unit than I had anticipated. From this, I learned that even if its just a little while that using the practice was going to be the one thing that could of helped me complete the exam faster.
 
 
 
