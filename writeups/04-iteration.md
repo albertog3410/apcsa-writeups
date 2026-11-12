@@ -74,7 +74,7 @@ for(int i = 0; i < message.length(); i++){
 
 
 ### Takeaways
-* **Navigating for() loops** - What also helped me to identify that error was a table that Mr.Mueller taught us that was similar to the **Truth Tables**, but it was for loops. Using this strategy really helped me figure out the issue and was useful when completing the unit exam. 
+* **Navigating ``for()`` loops** - What also helped me to identify that error was a table that Mr.Mueller taught us that was similar to the **Truth Tables**, but it was for loops. Using this strategy really helped me figure out the issue and was useful when completing the unit exam. 
 * **.length() vs .length() - 1** - I learned that ``.length() - 1`` gives the index of the very last character in a string. While ``.length()`` returns the total count of strings, which was the required output for the assignment. I would have never known this if Tina hadn't pointed it out considering that I originally thought that they meant the same thing.
 
 * **Patience** - While trying to solve the first algorithim, I was not having the patience to just sit there with the problem knowing that I had other assignments to complete for other classes. But using the strategy to help break down the ``for()`` loop to see where I went wrong really helped me to think with a clear head. 
