@@ -8,6 +8,13 @@
 So far in APCSA, I have learned how to use **Loops** to keep a condition true until it is proven false. Which is called **Iteration**, repeating a process to get a series of possible outcomes. In order to do this, I learned how to use two different forms of loops that I have learned last year when learning about Javascript, ``while()`` and ``for()`` loops. Similar to if statements, I also learned how to interpret the outputs for these kinds of loops. I had a difficult time with this unit considering that I struggled with knowing how to use loops, but as I broke down how the code iterates through the loops using the <a href="https://courses.projectstem.org">ProjectSTEM lessons</a>, it became a little easier to understand. 
 
 * ``while()`` - Repeats a condition as long as it is true, used when you need your loop to be controlled by user input.
+```js
+int x = 0;
+while(x < 5) {
+x++;
+System.out.println(x); // prints 0 to 4 in individual lines
+}
+```
 * ``for()`` - Sets a variable that either increases or decreases based condition, used when you want to output the number of times something appears or if you want to do a said amount of things a certain amount of times. 
 
 ### The Task
@@ -19,7 +26,7 @@ We started off by creating the ``for()`` statements to loop through each and eve
 ```js
     for(int i = 0; i < message.length() - 1; i++) {
     String letter = message.substring(i, i + 1); // letter = a letter in the string
-     if(i != 0 && !message.substring(i,i-1).equals(" ") && (letter.equals("a") || letter.equals("e") || letter.equals("i") || letter.equals("o") || letter.equals("u")) ) {
+     if(i != 0 && !message.substring(i-1,i).equals(" ") && (letter.equals("a") || letter.equals("e") || letter.equals("i") || letter.equals("o") || letter.equals("u")) ) {
        vowels++;
      }
      else if(i != 0 && letter.equals(message.substring(i-1,i))) {
@@ -42,22 +49,35 @@ We started off by creating the ``for()`` statements to loop through each and eve
 
 
 ### The Challenge
-However, when I put this into the program, the error would print out as an error that said that the length of the string was extended. 
+However, when I put this into the program, the error would print out as an error that said that the length of the string was extended. Not understanding what this meant, I showed this error to Tina to see where the error occured. She pointed out saying that I did not need to put ``- 1`` next to ``.length()``. While this did fix the error, I was still confused on how this worked, so I looked online and found a video that explained <a href="https://www.youtube.com/t/restricted_access?blocked=4">Difference between length() and length() in Java</a>. From this video, I learned that ``.length() - 1`` is used to output the very last index of a string, which is not what I needed for this assignment being that I needed the output to be the number of times a vowel or repeated non vowel appeared. Even when I fixed this, the error would still occur that the code was checking for something that was out of bounds. While time was running out and my partner was busy, I decided to look back at the ProjectSTEM videos to see what I have missed. Turned out, I was misinputting the substring in the if statement, which makes the statement check for an index . Due to this, I switched the substring from ``.substring(i+1,i)`` to ``.substring(i-1,i)`` so that the if statement can check to see if the letter before ``i`` was not equal to index of ``i``. 
 
 
 
-Even when I fixed this, the amount of characters saved was one more than the desired amount.
+```js
+for(int i = 0; i < message.length(); i++){
+    String letter = message.substring(i, i + 1);
+     if(i != 0 && !message.substring(i - 1, i).equals(" ") && (letter.equals("a") || letter.equals("e") || letter.equals("i") || letter.equals("o") || letter.equals("u")) ) {
+       vowels++;
+     }
+     else if(i != 0 && letter.equals(message.substring(i-1,i))) {
+       repeats++;
+     }
+      else {
+        result += letter;
+      }
+      
+      
+     }
 
-
-
-
-
-
+```
 
 
 
 ### Takeaways
-**.length() vs .length() - 1** - I learned that ``.length() - 1`` gives the index of the very last character in a string. While ``.length()`` returns the total count of strings, which was the required output for the assignment. I would have never known this if Tina hadn't pointed it out considering that I originally thought that they meant the same thing.
-**Patience** - While trying to solve the first algorithim, I was not having the patience to just sit there with the problem knowing that I had other assignments to complete for other classes. But using the strategy to help break down the ``for()`` loop to see where I went wrong really helped me to think with a clear head. 
-**Pay Attention to Detail** - I did not even notice that I had ``.length() - 1`` in the loop at first. Even when I did notice it, I did not care due to me thinking that were the same thing, but were not. Now I realized that in future units, I should really pay attention to what I type in code because one number that change the entire algorithm as a whole. 
+* **Navigating for() loops** - What also helped me to identify that error was a table that Mr.Mueller taught us that was similar to the **Truth Tables**, but it was for loops. Using this strategy really helped me figure out the issue and was useful when completing the unit exam. 
+* **.length() vs .length() - 1** - I learned that ``.length() - 1`` gives the index of the very last character in a string. While ``.length()`` returns the total count of strings, which was the required output for the assignment. I would have never known this if Tina hadn't pointed it out considering that I originally thought that they meant the same thing.
+
+* **Patience** - While trying to solve the first algorithim, I was not having the patience to just sit there with the problem knowing that I had other assignments to complete for other classes. But using the strategy to help break down the ``for()`` loop to see where I went wrong really helped me to think with a clear head. 
+
+* **Pay Attention to Detail** - I did not even notice that I had ``.length() - 1`` in the loop at first. Even when I did notice it, I did not care due to me thinking that were the same thing, but were not. Now I realized that in future units, I should really pay attention to what I type in code because one number that change the entire algorithm as a whole. 
 
