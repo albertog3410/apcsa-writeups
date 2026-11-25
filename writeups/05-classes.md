@@ -4,3 +4,5 @@
 ## Period: 1
 ## Concept: Classes
 
+### Context 
+So far in APCSA, I have learned how to use 
