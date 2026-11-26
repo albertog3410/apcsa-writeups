@@ -39,7 +39,15 @@ Public class Dog extends Animal { // every animal has a breed, weight and name
 ### The Task
 The lesson that I feel that I learned the most from was a partner project activity. Where me and my partner Brianna had to create a class named ``Fracton`` that will an instance of a ``numerator`` and ``denominator``. Which the class will alter based on a variety of constructors, accessors and mutators. The final solution to the challenge that I have explained below can be seen in this <a href="https://github.com/hstatsep-students/apcsa-2027-assignment5-group-4/blob/main/Fraction.java">github page</a>.
 
-### 
+### The Challenge and Solution
+
+
+
+
+### Takeaways
+
+
+
 
 
 
