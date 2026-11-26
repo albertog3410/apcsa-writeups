@@ -14,7 +14,6 @@ So far in APCSA, I have learned how to create **Classes** in java to seperate co
 * ``public`` methods can be accessed from outside of the class
 * ``private`` methods are restricted to only the class itself. 
 * ``.toString()`` - returns a string representation of the object.
-* ``this()`` - allows for the constructor to call another constructor within the same class.
 * ``extends`` - can pass on whatever private variable to all new classes inside of a class. Creates a sub class.
 
 ```js
@@ -41,12 +40,18 @@ The lesson that I feel that I learned the most from was a partner project activi
 
 ### The Challenge and Solution
 
-
+```js
+public void add(Fraction other){
+         this.setNumerator(this.getNumerator() + other.getNumerator());
+         this.setDenominator(this.getDenominator() + other.getDenominator());
+    }
+```
 
 
 ### Takeaways
+* Learned how to use ``this()`` - Which allows for the constructor to call another constructor within the same class.
 
-
+* **Problem Decomposition** - 
 
 
 
