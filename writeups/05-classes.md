@@ -61,7 +61,7 @@ public void add(Fraction other){
          this.setDenominator(this.getDenominator() + other.getDenominator());
     }
 ```
-However, when I went again to test the code myself through the terminal, I noticed that the fractions were not adding correctly. 
+However, when I went again to test the code myself through the terminal, I noticed that the fractions were not adding correctly for the numerator. Due to this, I had to see the project's instruction's again. I then realized that the instructions had a certain equation that they wanted us to use. The equation that they wanted us to use was (a*d + c*b)/(b*d) equals to the sum of fractions. In this equation, ``a`` equals to the represented fraction's numerator, and ``b`` equals to the fraction's represented denominator. While ``c`` equals to the ``other`` fraction's numerator, and ``d`` equals to the fraction's represented denominator. After this, I changed my ``setNumerator()`` method based on the equation. When I tested the code out again in the terminal, the classes were adding correctly. 
 
 ```js
     public void add(Fraction other){
@@ -79,7 +79,7 @@ However, when I went again to test the code myself through the terminal, I notic
 * Learned how to use ``this()`` - Which allows for the constructor to call another constructor within the same class. Being that I never used this method in the ProjectSTEM lessons, I did not think too much of this and did not put it in my notes. Which ended up being a mistake when I had to do this project. 
 
 * **Pay Attention to Detail** - Being that I had to see the project's instructions again, I realize that I am not the most attentive person. Which is a skill that I still need to improve on going forward if I want to understand how to code with not just Java, but also other programming languages. If I hadn't noticed the error before the teacher started grading the assignment, me and my partner probably would of got a lower grade than what we had right now. 
-* **Ask for Help When Needed** - Which is something that I do not do a lot  .If it was not for Brianna, I wouldn't have known about the ``this()`` method and how to use it for this project.
+* **Ask for Help When Needed** - Which is something that I do not do a lot of. This is due to me being so focused on a task to the point where I block out everything else around me. However, if it was not for Brianna, I wouldn't have known about the ``this()`` method and how to use it for this project.
 
 
 
