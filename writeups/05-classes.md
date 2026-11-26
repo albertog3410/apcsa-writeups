@@ -54,15 +54,14 @@ However, when I put this through the terminal using ``jcar runner_Fraction``, th
          this.setDenominator(this.getDenominator() * other.getDenominator());
     }
 ```
-With the ``multiply`` method done, I then 
-
+With the ``multiply`` method done, I then went on to the ``add`` mutator. I originally thought that it was the same form of code, only that we had to add instead of subtract. For a while, I even kept this originial code the same because me and my partner thought that we had done everything the assignment was asking of us.
 ```js
 public void add(Fraction other){
          this.setNumerator(this.getNumerator() + other.getNumerator());
          this.setDenominator(this.getDenominator() + other.getDenominator());
     }
 ```
-
+However, when I went again to test the code myself through the terminal, I noticed that the fractions were not adding correctly. 
 
 ```js
     public void add(Fraction other){
@@ -79,8 +78,8 @@ public void add(Fraction other){
 ### Takeaways
 * Learned how to use ``this()`` - Which allows for the constructor to call another constructor within the same class. Being that I never used this method in the ProjectSTEM lessons, I did not think too much of this and did not put it in my notes. Which ended up being a mistake when I had to do this project. 
 
-* **Problem Decomposition** - 
-* **Ask for Help When Needed** - If it was not for Brianna, I wouldn't have known about the ``this()`` method and how to use it for this project.
+* **Pay Attention to Detail** - Being that I had to see the project's instructions again, I realize that I am not the most attentive person. Which is a skill that I still need to improve on going forward if I want to understand how to code with not just Java, but also other programming languages. If I hadn't noticed the error before the teacher started grading the assignment, me and my partner probably would of got a lower grade than what we had right now. 
+* **Ask for Help When Needed** - Which is something that I do not do a lot  .If it was not for Brianna, I wouldn't have known about the ``this()`` method and how to use it for this project.
 
 
 
